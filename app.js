@@ -31,7 +31,7 @@ var drawTree = function (centerX, centerY) {
 
     // leaves
     var counter = 0;
-    while (counter < 3){
+    while (counter < 6){
         drawLevel(centerX, centerY, counter);
         counter++;
     } 
@@ -42,7 +42,7 @@ var drawTree = function (centerX, centerY) {
 var drawLevel = function(centerX, centerY, level) {
     push()
     fill(0, 153, 0);
-    var slimSize = 20 * level;
+    var slimSize = 30 * level;
     var baseWidth = 600;
     var baseHeight = 0.5 * baseWidth;
     var horizontalSpace = 80;
