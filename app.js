@@ -2,8 +2,8 @@ console.log("Js called");
 var setup = function(){
     push();
     // base
-    var width = 800;
-    var height = 1000;
+    var width = 1450;
+    var height = 850;
     var xMid = width / 2;
     var yMid = height / 2;
     createCanvas(width, height);
@@ -54,7 +54,7 @@ var drawLevel = function(centerX, centerY, level) {
  * Should draw a background the tree
  */
 function drawBackground() {
-    
+background(143,23,130);
 };
 
 var drawGodJul = function (centerX, centerY) {
