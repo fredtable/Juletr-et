@@ -18,7 +18,7 @@ var setup = function(){
     drawJulekugle(900,600)
 
     // call you own functions here
-    drawTemplate(260, 780);
+    drawStjerne(260, 780);
     pop();
 };
 
@@ -100,9 +100,12 @@ var drawJulekugle = function(centerX, centerY) {
  * @param {number} centerX
  * @param {number} centerY
  */
-var drawTemplate = function(centerX, centerY) {
+var drawStjerne = function(centerX, centerY) {
     push();
     // You decorations
+    fill(255,255,0);
+    textSize(300)
+    text("*",668,250);
     pop();
 };
 
